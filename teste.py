@@ -1,7 +1,7 @@
 import PyPDF2
 import re
 
-arquivo_path="ementa_computacao_bac.pdf" 
+arquivo_path="admmerge.pdf" 
 arquivo_aberto = PyPDF2.PdfReader(arquivo_path) 
 print(f"{len((arquivo_aberto.pages))} Páginas encontradas")
 
